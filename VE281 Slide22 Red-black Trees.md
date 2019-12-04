@@ -25,29 +25,29 @@
 
 #### Q is a red leaf
 
-<img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide22 Red-black Trees.assets\批注 2019-11-26 192757.png" alt="批注 2019-11-26 192757" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20192757.png?raw=true)
 
 * Recoloring. (May recurse when G's parent is red.)
 
-<img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide22 Red-black Trees.assets\批注 2019-11-26 193053.png" alt="批注 2019-11-26 193053" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20193053.png?raw=true)
 
 #### Q is empty, I is P's left child
 
-<img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide22 Red-black Trees.assets\批注 2019-11-26 192817.png" alt="批注 2019-11-26 192817" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20192817.png?raw=true)
 
 * Right rotation.
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide22 Red-black Trees.assets\批注 2019-11-26 193151.png" alt="批注 2019-11-26 193151" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20193151.png?raw=true)
 
 * Recoloring.
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide22 Red-black Trees.assets\批注 2019-11-26 193202.png" alt="批注 2019-11-26 193202" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20193202.png?raw=true)
 * Done.
 
 #### Q is empty, I is P's right child
 
-<img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide22 Red-black Trees.assets\批注 2019-11-26 192831.png" alt="批注 2019-11-26 192831" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20192831.png?raw=true)
 
 * Left rotation.
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide22 Red-black Trees.assets\批注 2019-11-26 193413.png" alt="批注 2019-11-26 193413" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20193413.png?raw=true)
 * The same as case 2.
 
 ### Violation at Internal Nodes
@@ -56,10 +56,10 @@
 
 #### Q is a red node.
 
-<img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide22 Red-black Trees.assets\批注 2019-11-26 193920.png" alt="批注 2019-11-26 193920" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20193920.png?raw=true)
 
 * Recoloring.
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide22 Red-black Trees.assets\批注 2019-11-26 193958.png" alt="批注 2019-11-26 193958" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20193958.png?raw=true)
 
 * May recurse when G's parent is red.
 
@@ -67,20 +67,20 @@
 
 
 
-<img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide22 Red-black Trees.assets\批注 2019-11-26 194125.png" alt="批注 2019-11-26 194125" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20194125.png?raw=true)
 
 * Right rotation.
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide22 Red-black Trees.assets\批注 2019-11-26 194138.png" alt="批注 2019-11-26 194138" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20194138.png?raw=true)
 * Recoloring.
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide22 Red-black Trees.assets\批注 2019-11-26 194155.png" alt="批注 2019-11-26 194155" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20194155.png?raw=true)
 * Done.
 
 #### Q is a black node, I is P's right child
 
-<img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide22 Red-black Trees.assets\批注 2019-11-26 194327.png" alt="批注 2019-11-26 194327" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20194327.png?raw=true)
 
 * Left rotation.
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide22 Red-black Trees.assets\批注 2019-11-26 194339.png" alt="批注 2019-11-26 194339" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20194339.png?raw=true)
 * The same as case 2.
 
 ### Violation Fix at the Root

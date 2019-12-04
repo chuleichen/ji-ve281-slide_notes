@@ -29,7 +29,7 @@
   * Rank (number of children)
   * (whether it is marked)
 
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide14 Fibonacci Heaps.assets\批注 2019-11-20 084240.png" alt="批注 2019-11-20 084240" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-20%20084240.png?raw=true)
 
 * Notation:
 
@@ -60,7 +60,7 @@
 
   
 
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide14 Fibonacci Heaps.assets\批注 2019-11-20 090918.png" alt="批注 2019-11-20 090918" style="zoom: 50%;" />
+  <img src="https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-20%20090918.png?raw=true" style="zoom: 50%;" />
 
 * `Decrease Key`: 
 
