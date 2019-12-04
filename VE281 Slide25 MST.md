@@ -1,7 +1,7 @@
 # VE281 Slide25 MST
 
 * **Minimum spanning tree**: Given a connected graph $G = (V, E)$ with real valued edge weights c~e~, and MST is a subset of the edges $T \subseteq E$ such that $T$ is a spanning tree whose sum of edge weights is minimized.
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide25 MST.assets\批注 2019-11-27 161531.png" alt="批注 2019-11-27 161531" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-27%20161531.png?raw=true)
   * **Cayley's Theorem**: there are n^n-2^ spanning trees of K~n~.
 
 ## Greedy Algorithms
@@ -12,13 +12,13 @@
 
   * Cutset: A cut is a subset of nodes S. The corresponding cutset D is the subset of edges with exactly one endpoint in S.
 
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide25 MST.assets\批注 2019-11-27 162501.png" alt="批注 2019-11-27 162501" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-27%20162501.png?raw=true)
 
 * **Cycle property**: Let C be any cycle, and let f be the max cost edge belonging to C. Then the MST does not contain f.
 
   * Cycle: Set of edges the form a-b, b-c, c-d, ..., y-z, z-a.
 
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide25 MST.assets\批注 2019-11-27 162516.png" alt="批注 2019-11-27 162516" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-27%20162516.png?raw=true)
 
 * A cycle and a cutset intersect in an even number of edges.
 
@@ -29,13 +29,13 @@
   1. Consider edges in ascending order of weight.
 
   2. If adding e to T create a cycle, discard 3 according to cycle property. 
-     <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide25 MST.assets\批注 2019-11-27 170916.png" alt="批注 2019-11-27 170916" style="zoom:50%;" />
+     ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-27%20170916.png?raw=true)
 
      Otherwise, insert e = (u, v) into T according to cut property where S = set of nodes in u's connected component.
-     <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide25 MST.assets\批注 2019-11-27 170930.png" alt="批注 2019-11-27 170930" style="zoom:50%;" />
+     ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-27%20170930.png?raw=true)
 
   * Algorithm:
-    <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide25 MST.assets\批注 2019-11-27 171055.png" alt="批注 2019-11-27 171055" style="zoom:50%;" />
+    ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-27%20171055.png?raw=true)
   * Time complexity: $O(m \log n)$ for sorting and $O(m\ \alpha(m,n))$ for union-find.
 
 * Reverse-Delete algorithm: Start with $T = E$. Consider edges in descending order of cost. Delete edge e from T unless doing so will disconnect T.
@@ -45,8 +45,8 @@
   1. Initialize S = any node.
   2. Apply cut property to S.
   3. Add min cost edge in cut set corresponding to S to T, and add one new explored node u to S.
-     <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide25 MST.assets\批注 2019-11-27 170207.png" alt="批注 2019-11-27 170207" style="zoom:50%;" />
+     ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-27%20170207.png?raw=true)
 
   * Algorithm:
-    <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide25 MST.assets\批注 2019-11-27 170501.png" alt="批注 2019-11-27 170501" style="zoom:50%;" />
+    ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-27%20170501.png?raw=true)
   * Time complexity: $O(n^2)$ with an array, $O(m\log n)$ with a binary heap.

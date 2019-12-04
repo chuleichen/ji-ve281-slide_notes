@@ -22,7 +22,7 @@ $$
 
 * A subpath of a shortest path is a shortest path.
 * If a graph G contains a negative-weight cycle, then some shortest paths may not exist.
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide26 Shortest Path.assets\批注 2019-11-27 172326.png" alt="批注 2019-11-27 172326" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-27%20172326.png?raw=true)
 
 
 
@@ -46,7 +46,7 @@ From a given source vertex $s \in V$, find the shortest-path weights $d(s,v)$ fo
 2. At each step add to S the vertex $v \in V-S$ whose distance estimate from s id minimal.
 3. Update the distance estimates of vertices adjacent to v.
 
-<img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide26 Shortest Path.assets\批注 2019-11-29 161603.png" alt="批注 2019-11-29 161603" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-29%20161603.png?raw=true)
 
 * Initializing $d[s]\leftarrow 0$ and $d[v] \leftarrow + \infin$ for all $v \in V-{s}$ establishes $d[v] \geq d(s,v)$ for all $v \in V$, and this invariant is maintained over any sequence of relaxation steps.
 * Dijkstra's algorithm terminates with $d[v] = d(s,v)$ for all $v \in V$.
@@ -79,7 +79,7 @@ From a given source vertex $s \in V$, find the shortest-path weights $d(s,v)$ fo
   OPT (i,u) =  \left\{ \begin{matrix} 0 & if \ i = 0 \\ min\{ OPT(i-1, u), min_{(u,v) \in E}\{ OPT(i-1,v) + w(u,v) \} \} & otherwise \end{matrix} \right.
   $$
 
-<img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide26 Shortest Path.assets\批注 2019-11-29 183722.png" alt="批注 2019-11-29 183722" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-29%20183722.png?raw=true)
 
 * Time complexity: $O(mn)$.
 * Space complexity: $O(n^2)$
@@ -96,7 +96,7 @@ From a given source vertex $s \in V$, find the shortest-path weights $d(s,v)$ fo
 
 * Running time: $O(mn)$ in worst case, but substantially faster in practice.
 
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide26 Shortest Path.assets\批注 2019-11-29 185321.png" alt="批注 2019-11-29 185321" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-29%20185321.png?raw=true)
 
 * If $OPT(n,u) = OPT(n-1,u)$ for all $u$, then no negative cycles. If $OPT(n,u) < OPT(n-1,u)$ for some node $u$, then (any) shortest path from $u$ to $t$ contains a cycle $W$. Moreover $W$ has negative cost.
   
@@ -136,7 +136,7 @@ From a given source vertex $s \in V$, find the shortest-path weights $d(s,v)$ fo
   $$
   
 * Algorithm: 
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide26 Shortest Path.assets\批注 2019-12-04 163319.png" alt="批注 2019-12-04 163319" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-12-04%20163319.png?raw=true)
 
 * Time complexity: $\Theta(n^3)$.
 

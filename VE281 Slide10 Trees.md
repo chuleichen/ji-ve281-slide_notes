@@ -46,7 +46,7 @@
 * A binary tree is `perfect` if every level is fully populated.
 
 * Numbering nodes in a perfect binary tree: $1$ to $2^{h+1} -1$, from top to bottom, from left to right:
-  <img src="C:%5CUsers%5CTP%5CDownloads%5CTypora%20Notes%5CVE281%5CSlide%5CVE281%20Slide10%20Trees.assets%5C%E6%89%B9%E6%B3%A8%202019-10-28%20154542.png" alt="批注 2019-10-28 154542" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-10-28%20154542.png?raw=true)
 
   * Parent of node $i$: $\lfloor i/2 \rfloor$.
   * Left child of node $i$: $2i$.
@@ -65,3 +65,4 @@
   ```
 
   `left`/`right` points to a left/right **subtree**, `NULL` if empty. For a leaf node, both `left` and `right` point to NULL.
+

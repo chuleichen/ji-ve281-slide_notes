@@ -60,7 +60,7 @@
 
   
 
-  <img src="https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-20%20090918.png?raw=true" style="zoom: 50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-20%20090918.png?raw=true)
 
 * `Decrease Key`: 
 
@@ -72,7 +72,7 @@
 
   
 
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide14 Fibonacci Heaps.assets\批注 2019-11-20 091413.png" alt="批注 2019-11-20 091413" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-20%20091413.png?raw=true)
 
 ## Bounding the rank
 
@@ -80,7 +80,7 @@
    $$
    rank(y_i) \geq \left\{ \begin{matrix} 0 & if \  i = 1 \\ i-2 & if \  i \geq 2 \end{matrix} \right.
    $$
-   <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide14 Fibonacci Heaps.assets\批注 2019-11-20 091800.png" alt="批注 2019-11-20 091800" style="zoom:50%;" />
+   ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-20%20091800.png?raw=true)
 
 2. Let s~k~ be minimum number of elements in any Fibonacci heap of rank k. Then s~k~ $\geq$ F~k+2~, where F~k~ is the k^th^ Fibonacci number.
 
