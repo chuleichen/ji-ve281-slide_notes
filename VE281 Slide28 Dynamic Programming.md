@@ -68,10 +68,10 @@
   * $Cost = e(i,j)+c+OPT(i-1)$
     $$
     OPT(j) = \left\{ 
-     \begin{matrix} 
+     \begin{align} 
        0 & j = 0 \\ 
        \min_{1\leq i\leq j}\{ e(i, j) + c + OPT(i-1) \} & otherwise \\ 
-      \end{matrix} 
+      \end{align} 
      \right.
     $$
     
