@@ -71,7 +71,7 @@
     \left\lbrace
      \begin{array}{ll}
        {0} & {j = 0} \\ 
-       {\min_{1 \leq i \leq j}\{ e(i, j) + c + OPT(i-1) \} } & {otherwise} \\ 
+       {\min_{1 \leq i \leq j}\{ e(i, j) + c + OPT(i-1) \} } & {otherwise} 
       \end{array} 
      \right.
     $$
