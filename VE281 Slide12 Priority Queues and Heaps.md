@@ -12,7 +12,7 @@
   * A min heap is a binary heap, and for any node `v`, the key of `v` is smaller than or equal to the keys of any **descendants*** of `v`.	(The key of the `root` of any subtree is always the smallest)
 
 * Store the elements in an array in the order produced by a **level-order traversal**, the first element is stored at index **1**.
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide12 Priority Queues and Heaps.assets\批注 2019-11-13 161732.png" alt="批注 2019-11-13 161732" style="zoom: 50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-13%20161732.png?raw=true)
 
   * A node at index $i$ ($i \not= 1$) has its parent at index $\lfloor i/2 \rfloor$.
   * A node at index $i (2i \leq n)$ has its left child at $2i$ and tight child at $2i+1$.

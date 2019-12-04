@@ -2,14 +2,14 @@
 
 ## Exploring Graphs
 
-<img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide24 BFSDFS.assets\批注 2019-11-26 200253.png" alt="批注 2019-11-26 200253" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20200253.png?raw=true)
 
 * Every node it visits must be reachable from v.
 * Every node reachable from v must be visited.
 
 ## Depth-First Search
 
-<img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide24 BFSDFS.assets\批注 2019-11-26 200724.png" alt="批注 2019-11-26 200724" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20200724.png?raw=true)
 
 * Every edge is examined exactly twice.
 * Run time complexity: $O(|V| + |E|)$.
@@ -50,12 +50,12 @@
 * Two nodes u and v of a **directed** graph are connected if there is a path from u to v and a path from v to u.
 * This relation partitions V into disjoint sets that we call **strongly connected components**.
 * Every directed graph is a dag of its strongly connected components.
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide24 BFSDFS.assets\批注 2019-11-26 203909.png" alt="批注 2019-11-26 203909" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20203909.png?raw=true)
 * If the `EXPLORE` subroutine is started at node u, then it will terminate precisely when all nodes reachable from u have been visited. Therefore, if we call `EXPLORE` in a **sink strongly connected component**, then we will retrieve exactly that component.
 * If C and C' are strongly connected components, and there is an edge from a node in C to a node in C', then the highest `POST` number in C is bigger than the highest `POST` number in C'.
 * The node that receives the highest `POST` number in a depth-first search must lie in a source strongly connected component. The smallest `POST` number in a depth-first search may **NOT** lie in a sink strongly connected component.
 * Explore numbers:
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide24 BFSDFS.assets\批注 2019-11-27 155614.png" alt="批注 2019-11-27 155614" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-27%20155614.png?raw=true)
 
 
 
@@ -69,10 +69,11 @@
 * To continue once the first sink strongly connected component is discovered:
   * Once the first component is deleted, the node with the highest `POST` number among those remaining will belong to  a sink strongly connected component of whatever remain of G.
 
-<img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide24 BFSDFS.assets\批注 2019-11-27 160432.png" alt="批注 2019-11-27 160432" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-27%20160432.png?raw=true)
 
 * For each $d = 0, 1, 2, \cdots$, there is a moment at which
   * all nodes at distance $\leq d$ from s have their distances correctly set.
   * all other nodes have their distance set to $\infin$.
   * the queue contains exactly the nodes at distance $d$.
 * Time complexity: $O(|V|+|E|)$.
+
