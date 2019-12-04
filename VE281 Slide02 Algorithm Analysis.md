@@ -21,9 +21,9 @@
 * Look for the tightest upper bound.
 * If $\lim_{n \rightarrow \infin} \frac{f(n)}{g(n)} = c < \infin$, then $f(n)$ is $O(g(n))$.
 
-<img src="C:%5CUsers%5CTP%5CDownloads%5CTypora%20Notes%5CVE281%5CSlide%5CVE281%20Slide02%20Algorithm%20Analysis.assets%5Cfig1.PNG" alt="fig1" style="zoom: 50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/tree/master/fig/fig1.png)
 
-<img src="C:%5CUsers%5CTP%5CDownloads%5CTypora%20Notes%5CVE281%5CSlide%5CVE281%20Slide02%20Algorithm%20Analysis.assets%5Cfig2.PNG" alt="fig2" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/tree/master/fig/fig2.PNG)
 
 ##### Rules:
 
