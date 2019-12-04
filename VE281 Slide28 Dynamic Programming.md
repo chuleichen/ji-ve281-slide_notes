@@ -27,11 +27,11 @@
     $$
     
 
-      <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide28 Dynamic Programming.assets\批注 2019-12-04 202236.png" alt="批注 2019-12-04 202236" style="zoom:50%;" />
+      ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-12-04%20202236.png?raw=true)
 
 * Memoization version: store results of each sub-problem in a cache, look up as needed.
 
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide28 Dynamic Programming.assets\批注 2019-12-04 204252.png" alt="批注 2019-12-04 204252" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-12-04%20204252.png?raw=true)
 
   * Time complexity: $O(n \log n)$
     * Sort by finish time: $O(n \log n)$.
@@ -44,8 +44,8 @@
     * Overall running time of M-Compute_Opt($n$) is $O(n)$.
   * Time complexity is $O(n)$ is jobs are pre-sorted by start and finish times.
   
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide28 Dynamic Programming.assets\批注 2019-12-04 210507.png" alt="批注 2019-12-04 210507" style="zoom:50%;" />
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide28 Dynamic Programming.assets\批注 2019-12-04 210538.png" alt="批注 2019-12-04 210538" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-12-04%20210507.png?raw=true)
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-12-04%20210538.png?raw=true)
 
 
 
@@ -56,7 +56,7 @@
   * the sum of the sums of the squared errors $E$ in each segment
   * the number of lines $L$
 * Tradeoff function: $E+cL$, for some constant $c>0$.
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide28 Dynamic Programming.assets\批注 2019-12-04 210935.png" alt="批注 2019-12-04 210935" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-12-04%20210935.png?raw=true)
 
 * Notation:
 
@@ -73,7 +73,7 @@
     $$
     
 
-<img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide28 Dynamic Programming.assets\批注 2019-12-04 211352.png" alt="批注 2019-12-04 211352" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-12-04%20211352.png?raw=true)
 
 * Time complexity: $O(n^3)$
   * Can be improved to $O(n^2)$ by pre-computing.
@@ -102,6 +102,6 @@
 
   
 
-<img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide28 Dynamic Programming.assets\批注 2019-12-04 212702.png" alt="批注 2019-12-04 212702" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-12-04%20212702.png?raw=true)
 
 * Time complexity: $\Theta(nW)$.

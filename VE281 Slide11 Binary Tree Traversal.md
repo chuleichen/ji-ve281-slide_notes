@@ -22,9 +22,9 @@ void preOrder(node *n) {
 
 
 
-<img src="C:%5CUsers%5CTP%5CDownloads%5CTypora%20Notes%5CVE281%5CSlide%5CVE281%20Slide11%20Binary%20Tree%20Traversal.assets%5C%E6%89%B9%E6%B3%A8%202019-10-28%20161037.png" alt="批注 2019-10-28 161037" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-10-28%20161037.png?raw=true)
 
-<img src="C:%5CUsers%5CTP%5CDownloads%5CTypora%20Notes%5CVE281%5CSlide%5CVE281%20Slide11%20Binary%20Tree%20Traversal.assets%5C%E6%89%B9%E6%B3%A8%202019-10-28%20161100.png" alt="批注 2019-10-28 161100" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-10-28%20161100.png?raw=true)
 
 ### Post-order
 
@@ -41,9 +41,9 @@ void postOrder(node *n) {
 }
 ```
 
-<img src="C:%5CUsers%5CTP%5CDownloads%5CTypora%20Notes%5CVE281%5CSlide%5CVE281%20Slide11%20Binary%20Tree%20Traversal.assets%5C%E6%89%B9%E6%B3%A8%202019-10-28%20161309.png" alt="批注 2019-10-28 161309" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-10-28%20161309.png?raw=true)
 
-<img src="C:%5CUsers%5CTP%5CDownloads%5CTypora%20Notes%5CVE281%5CSlide%5CVE281%20Slide11%20Binary%20Tree%20Traversal.assets%5C%E6%89%B9%E6%B3%A8%202019-10-28%20161323.png" alt="批注 2019-10-28 161323" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-10-28%20161323.png?raw=true)
 
 ### In-order
 
@@ -65,9 +65,9 @@ void inOrder(node *n) {
 * Traverse the tree level by level from top to bottom.
 * Within each level, traverse from left to right.
 
-<img src="C:%5CUsers%5CTP%5CDownloads%5CTypora%20Notes%5CVE281%5CSlide%5CVE281%20Slide11%20Binary%20Tree%20Traversal.assets%5C%E6%89%B9%E6%B3%A8%202019-10-28%20161706.png" alt="批注 2019-10-28 161706" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-10-28%20161706.png?raw=true)
 
-<img src="C:%5CUsers%5CTP%5CDownloads%5CTypora%20Notes%5CVE281%5CSlide%5CVE281%20Slide11%20Binary%20Tree%20Traversal.assets%5C%E6%89%B9%E6%B3%A8%202019-10-28%20161722.png" alt="批注 2019-10-28 161722" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-10-28%20161722.png?raw=true)
 
 1. Enqueue the root node to an empty queue.
 2. While the queue is not empty, dequeue a node from the front of the queue.
