@@ -22,9 +22,7 @@
   * $p(j) = $ largest index $i < j$ such that job $i$ is compatible with $j$.
 
   * $OPT(j) = $ value of optimal solution to the problem consisting of job request $1, 2, \cdots, j$.
-    $$
-    OPT(j) = \left\{  \begin{matrix} 0 & j = 0 \\ \max\{ v_j + OPT(p(j)), OPT(j-1)\} & otherwise \\ \end{matrix} \right.
-    $$
+  <img src="http://latex.codecogs.com/svg.latex?OPT(j) = \left\{  \begin{matrix} 0 & j = 0 \\ \max\{ v_j + OPT(p(j)), OPT(j-1)\} & otherwise \\ \end{matrix} \right."/>
     
 
       ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-12-04%20202236.png?raw=true)
