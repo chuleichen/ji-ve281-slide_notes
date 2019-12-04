@@ -7,11 +7,12 @@
     * V: vertex
     * E: edges
 
-    <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide23 Graph.assets\批注 2019-11-26 194927.png" alt="批注 2019-11-26 194927" style="zoom:50%;" />
+    ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20194927.png?raw=true)
 
   * Directed graph: G = (V, A)
 
     * V: vertex
     * A: arcs
 
-    <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide23 Graph.assets\批注 2019-11-26 194943.png" alt="批注 2019-11-26 194943" style="zoom:50%;" />
+    ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-26%20194943.png?raw=true)
+

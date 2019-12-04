@@ -28,14 +28,14 @@
 * Right rotation:
   1. The right link of the left child becomes the left link of the parent.
   2. Parent becomes right child of the old left child.
-     <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide21 AVL Trees.assets\批注 2019-11-25 161210.png" alt="批注 2019-11-25 161210" style="zoom:50%;" />
+     ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-25%20161210.png?raw=true)
 
 * Left rotation:
 
   1. The left link of the right child becomes the right link of the parent.
   2. Parent becomes left child of the old right child.
 
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide21 AVL Trees.assets\批注 2019-11-25 161351.png" alt="批注 2019-11-25 161351" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-25%20161351.png?raw=true)
 
 * Balance Factor: $B_T = h_l - h_r$
 * For every node `T` in the tree, $|B_T| \leq 1$.
@@ -44,8 +44,8 @@
 
 * Do a **right** rotation at node P.
 * An **LL rotation** is called for when the node becomes unbalanced with a **positive** balance factor and the left subtree of the node also has a **positive** balance factor.
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide21 AVL Trees.assets\批注 2019-11-25 162053.png" alt="批注 2019-11-25 162053" style="zoom:50%;" />
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide21 AVL Trees.assets\批注 2019-11-25 162108.png" alt="批注 2019-11-25 162108" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-25%20162053.png?raw=true)
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-25%20162108.png?raw=true)
 
 ### right right rotation
 
@@ -53,8 +53,8 @@
 
 * An **RR rotation** is called for when the node becomes unbalanced with a **negative** balance factor and the right subtree of the node also has a **negative** balance factor.
 
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide21 AVL Trees.assets\批注 2019-11-25 162315.png" alt="批注 2019-11-25 162315" style="zoom:50%;" />
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide21 AVL Trees.assets\批注 2019-11-25 162330.png" alt="批注 2019-11-25 162330" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-25%20162315.png?raw=true)
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-25%20162330.png?raw=true)
 
 
 ### left right rotation
@@ -63,16 +63,16 @@
 
 * An **LR rotation** is called for when the node becomes unbalanced with a **positive** balance factor but the left subtree of the node has a **negative** balance factor.
 
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide21 AVL Trees.assets\批注 2019-11-25 162619.png" alt="批注 2019-11-25 162619" style="zoom:50%;" />
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide21 AVL Trees.assets\批注 2019-11-25 162648.png" alt="批注 2019-11-25 162648" style="zoom:50%;" />
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide21 AVL Trees.assets\批注 2019-11-25 162658.png" alt="批注 2019-11-25 162658" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-25%20162619.png?raw=true)
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-25%20162648.png?raw=true)
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-25%20162658.png?raw=true)
 
 ### right left rotation
 
 * Do a **right** rotation on node A and then a **left** rotation on node P.
 * An **RL rotation** is called for when the node becomes unbalanced with a **negative** balance factor but the right subtree of the node has a **positive** balance factor.
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide21 AVL Trees.assets\批注 2019-11-25 162939.png" alt="批注 2019-11-25 162939" style="zoom:50%;" />
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide21 AVL Trees.assets\批注 2019-11-25 162954.png" alt="批注 2019-11-25 162954" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-25%20162939.png?raw=true)
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-25%20162954.png?raw=true)
 
 * When the AVL tree becomes unbalanced after an insertion, exactly **one** single or double rotation is required to balance the tree.
 

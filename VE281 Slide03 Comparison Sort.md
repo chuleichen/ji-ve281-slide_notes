@@ -79,19 +79,13 @@
 
 * $ T(n) = aT(\frac{n}{b}) + O(n^d), a \geq 1, b>1, d \geq 0 $
 
-<img src="C:%5CUsers%5CTP%5CDownloads%5CTypora%20Notes%5CVE281%5CSlide%5CVE281%20Slide03%20Comparison%20Sort.assets%5C%E6%8D%95%E8%8E%B7.PNG" alt="捕获" style="zoom:50%;" />
-$$
-\begin{aligned}
-	Total =& \sum_{j=1}^ka^{j-1}\cdot O(\frac{n}{b^{j-1}})^d \\
-	=& \sum_{j=0}^{k-1}a^j\cdot O(\frac{n}{b^j})^d \\
-	=& O(n^d)\cdot \sum_{j=0}^{k-1}O(\frac{a}{b^d})^j
-\end{aligned}
-$$
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%8D%95%E8%8E%B7.PNG?raw=true)
+
+$\frac{a}{b^d} = 1 \Rightarrow d= \log _b a$
+$ Total = O(n^d)\cdot \sum_{j=0}^{k-1}O(1)^j = O(n^d)\cdot \sum_{j=0}^{\log_bn} \cdot 1 = O(n^d \cdot \log_bn) = O(n^d\log n) $
 
 
-1. $\frac{a}{b^d} = 1 \Rightarrow d= \log _b a$
-   $ Total = O(n^d)\cdot \sum_{j=0}^{k-1}O(1)^j = O(n^d)\cdot \sum_{j=0}^{\log_bn} \cdot 1 = O(n^d \cdot \log_bn) = O(n^d\log n) $
-   * **Base change formula**: $\log_b n = \frac{\log_2n}{\log_2b} = \frac{1}{\log_2b}\cdot \log_2n = c \cdot \log n$
+1. * **Base change formula**: $\log_b n = \frac{\log_2n}{\log_2b} = \frac{1}{\log_2b}\cdot \log_2n = c \cdot \log n$
 2. $ \frac{a}{b^d} < 1 \Rightarrow d > \log_b a $
    $ q=\frac{a}{b^q}<1, a_1 = 1 $
    $ Total = O(n^d) \cdot \sum_{j=0}^{k-1}O(\frac{a}{b^d})^j \leq O(n^d) \cdot \frac{1}{1-\frac{a}{b^d}} = O(n^d) $
@@ -101,7 +95,7 @@ $$
    $ Total = O(n^d) \cdot \sum_{j=1}^{k-1}(\frac{a}{b^d})^j \leq O(n^d) \cdot \frac{(\frac{a}{b^d})^{k-1}}{1-\frac{b^d}{a}} = O(n^d) \cdot \frac{a^{\log_bn}}{b^{d \cdot \log_bn}} = O(n^d) \cdot \frac{n^{\log_ba}}{n^d} = O(n^{\log_ba}) $
    * $ a^{\log_bn} = a^{\log_an \cdot \log_ba} = n^{\log_ba} $
 
-<img src="C:%5CUsers%5CTP%5CDownloads%5CTypora%20Notes%5CVE281%5CSlide%5CVE281%20Slide03%20Comparison%20Sort.assets%5C%E6%8D%95%E8%8E%B7-1568798831181.PNG" alt="捕获-1568798831181" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%8D%95%E8%8E%B7-1568798831181.PNG?raw=true)
 
 ## Quick Sort
 
@@ -136,9 +130,9 @@ $$
   3. Increment i until we find element A[i]>=pivot. (A[i] is the leftmost item ≥ pivot.)
   4. Decrement j until we find element A[j]<pivot. (A[j] is the rightmost item < pivot.)
   5. If i<j, swap A[i] with A[j]. Go back to step 3.
-     <img src="C:%5CUsers%5CTP%5CDownloads%5CTypora%20Notes%5CVE281%5CSlide%5CVE281%20Slide03%20Comparison%20Sort.assets%5C%E6%8D%95%E8%8E%B72.PNG" alt="捕获2" style="zoom:50%;" />
+     ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%8D%95%E8%8E%B72.PNG?raw=true)
   6. Otherwise, swap the first element (pivot) with A[j].
-     <img src="C:%5CUsers%5CTP%5CDownloads%5CTypora%20Notes%5CVE281%5CSlide%5CVE281%20Slide03%20Comparison%20Sort.assets%5C%E6%8D%95%E8%8E%B72-1568798923658.PNG" alt="捕获2-1568798923658" style="zoom:50%;" />
+     ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%8D%95%E8%8E%B72-1568798923658.PNG?raw=true)
 
   * Time complexity: $O(N)$.
 
@@ -169,7 +163,7 @@ $$
 
 * Theorem: A sorting algorithm that is based on pairwise comparisons must use $\Omega(N \log N)$ operations to sort in the worst case.
 
-<img src="C:%5CUsers%5CTP%5CDownloads%5CTypora%20Notes%5CVE281%5CSlide%5CVE281%20Slide03%20Comparison%20Sort.assets%5C%E6%8D%95%E8%8E%B7-1568972120277.PNG" alt="捕获-1568972120277" style="zoom:50%;" />
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%8D%95%E8%8E%B7-1568972120277.PNG?raw=true)
 
 * The depth of the tree: the worst-case time complexity of the algorithm.
 * Every permutation must appear as the label of a leaf. ($n!$ leaves)
@@ -203,4 +197,4 @@ $$
 1. Web browser: first in, last out.
 2. Parenthesis matching: one symbol stack and one number stack, o look-up table to check the priority. 
 3. Hanoi tower
-   <img src="C:%5CUsers%5CTP%5CDownloads%5CTypora%20Notes%5CVE281%5CSlide%5CVE281%20Slide03%20Comparison%20Sort.assets%5C%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190925172232.png" alt="微信图片_20190925172232" style="zoom: 25%;" />
+   ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190925172232.png?raw=true)

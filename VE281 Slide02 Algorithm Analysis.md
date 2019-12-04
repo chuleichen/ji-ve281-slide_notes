@@ -23,7 +23,7 @@
 
 ![fig1](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/fig1.PNG?raw=true)
 
-![](https://github.com/chuleichen/ji-ve281-slide_notes/tree/master/fig/fig2.PNG)
+![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/fig2.PNG?raw=true)
 
 ##### Rules:
 

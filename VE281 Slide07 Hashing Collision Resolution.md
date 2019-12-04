@@ -22,8 +22,8 @@
 ### Linear Probing
 
 * $h_i(key) = (h(key) + i) \% n$
-* <img src="C:%5CUsers%5CTP%5CDownloads%5CTypora%20Notes%5CVE281%5CSlide%5CVE281%20Slide07%20Hashing%20Collision%20Resolution.assets%5C%E6%89%B9%E6%B3%A8%202019-10-11%20162735.png" alt="批注 2019-10-11 162735" style="zoom:50%;" />
 
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-10-11%20162735.png?raw=true)
 * `find()`: search by h~0~(key), h~1~(key) until find the key or an empty slot which means the key is not found.
 * `remove()`: search and find the key and replace it with `del`
 * Cluster problem: assuming input size N, table size 2N

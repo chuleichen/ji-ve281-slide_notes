@@ -48,7 +48,7 @@
 ## d-ary heap
 
 * Empty or node with links to $d$ disjoint d-ary trees.
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide13 Binomial Heaps.assets\批注 2019-11-15 162001.png" alt="批注 2019-11-15 162001" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-15%20162001.png?raw=true)
 
 
 
@@ -59,7 +59,7 @@
   * Order $0$: single node.
   * Order $k$: one binomial tree of order $k-1$ linked to another of order $k-1$.
 
-  <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide13 Binomial Heaps.assets\批注 2019-11-15 162934.png" alt="批注 2019-11-15 162934" style="zoom:50%;" />
+  ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-15%20162934.png?raw=true)
 
 * Given an order $k$ binomial tree $B_k$
 
@@ -68,7 +68,7 @@
   * It has $\left( \begin{matrix} k \\ i \end{matrix} \right)$ nodes at depth $i$.
   * Degree of its root: $k$.
   * Deleting its root yields $k$ binomial trees $B_{k-1}, \cdots, B_0$.
-    <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide13 Binomial Heaps.assets\批注 2019-11-15 163321.png" alt="批注 2019-11-15 163321" style="zoom:50%;" />
+    ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-15%20163321.png?raw=true)
 
 * A binomial heap is **a sequence of** binomial trees such that
 
@@ -86,10 +86,10 @@
     * Connect roots of H~1~ and H~2~.
     * Choose node with smaller key to be root of H.
 
-    <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide13 Binomial Heaps.assets\批注 2019-11-15 163842.png" alt="批注 2019-11-15 163842" style="zoom:50%;" />
+    ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-15%20163842.png?raw=true)
 
   * Different order:
-    <img src="C:\Users\AAAA\Downloads\Typora Notes\VE281\Slide\VE281 Slide13 Binomial Heaps.assets\批注 2019-11-15 164033.png" alt="批注 2019-11-15 164033" style="zoom:50%;" />
+    ![](https://github.com/chuleichen/ji-ve281-slide_notes/blob/master/fig/%E6%89%B9%E6%B3%A8%202019-11-15%20164033.png?raw=true)
 
   * Time complexity: $O(\log n)$
 
